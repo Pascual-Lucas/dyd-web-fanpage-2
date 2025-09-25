@@ -1,0 +1,68 @@
+/* Dragon Ball Fanpage - Version 2 */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap");
+
+body {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav a {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.personaje-img {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+}
+
+.img-home {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Orbitron", sans-serif;
+  color: #ffaa00;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  border: 2px solid #ff6b35;
+  box-shadow: 0 4px 8px rgba(255, 170, 0, 0.3);
+}
+
+img:hover {
+  box-shadow: 0 6px 12px rgba(255, 170, 0, 0.5);
+}
+
+input[type="submit"] {
+  background-color: #ff6b35;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffaa00;
+}
+
+footer {
+  background-color: #2d1b69;
+  padding: 20px;
+  text-align: center;
+}
